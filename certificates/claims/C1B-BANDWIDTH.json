@@ -1,0 +1,24 @@
+{
+  "cert_id": "C1B-BANDWIDTH",
+  "claim_tex": "Phi*delta^2/(sqrt(6*Phi^2)+sqrt(5*pi))",
+  "published_value": "0.0000000118228",
+  "precision_bits": 200,
+  "primary": {
+    "tool": "python-flint 0.9.0 (Arb), prec=200 bits",
+    "mid": "1.182279857224929726712080471096893478381004152194507317790744195560806e-8",
+    "radius": 6.409839322126344e-63
+  },
+  "crosscheck": {
+    "tool": "mpmath 1.4.1 iv, prec=200 bits",
+    "lo": "0.000000011822798572249297267120804710968934783810041521945073175950873",
+    "hi": "0.000000011822798572249297267120804710968934783810041521945073182798828"
+  },
+  "rules": {
+    "R1_overlap": true,
+    "R2_radius": true,
+    "R3_published_inside": true
+  },
+  "verdict": "PASS",
+  "code_sha256": "bcff4d80ba658b2a933c8539c29d8b8524efde48e45ca24d3574485745109fcd",
+  "timestamp_utc": "2026-11-05T22:57:02.982771+00:00"
+}

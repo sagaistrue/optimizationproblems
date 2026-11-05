@@ -1,0 +1,24 @@
+{
+  "cert_id": "C84-GAP",
+  "claim_tex": "(5/4 - delta_open) - (1 + 1/4.116)",
+  "published_value": "0.0068",
+  "precision_bits": 200,
+  "primary": {
+    "tool": "python-flint 0.9.0 (Arb), prec=200 bits",
+    "mid": "0.006805010862619454883557912147320311359813103658055916512970900387795147",
+    "radius": 6.665243600757897e-59
+  },
+  "crosscheck": {
+    "tool": "mpmath 1.4.1 iv, prec=200 bits",
+    "lo": "0.0068050108626194548835579121473203113598131036580559165129198717",
+    "hi": "0.006805010862619454883557912147320311359813103658055916512990814"
+  },
+  "rules": {
+    "R1_overlap": true,
+    "R2_radius": true,
+    "R3_published_inside": true
+  },
+  "verdict": "PASS",
+  "code_sha256": "bcff4d80ba658b2a933c8539c29d8b8524efde48e45ca24d3574485745109fcd",
+  "timestamp_utc": "2026-11-05T22:57:02.982771+00:00"
+}

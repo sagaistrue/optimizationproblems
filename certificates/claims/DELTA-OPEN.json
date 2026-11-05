@@ -1,0 +1,24 @@
+{
+  "cert_id": "DELTA-OPEN",
+  "claim_tex": "delta_open = 6*Phi^2 - 5*pi",
+  "published_value": "0.00024066",
+  "precision_bits": 200,
+  "primary": {
+    "tool": "python-flint 0.9.0 (Arb), prec=200 bits",
+    "mid": "0.0002406645504028969143040897963142853360080819590480679379528292087754249",
+    "radius": 6.523762171024671e-59
+  },
+  "crosscheck": {
+    "tool": "mpmath 1.4.1 iv, prec=200 bits",
+    "lo": "0.00024066455040289691430408979631428533600808195904806793793291556",
+    "hi": "0.00024066455040289691430408979631428533600808195904806793800261333"
+  },
+  "rules": {
+    "R1_overlap": true,
+    "R2_radius": true,
+    "R3_published_inside": true
+  },
+  "verdict": "PASS",
+  "code_sha256": "bcff4d80ba658b2a933c8539c29d8b8524efde48e45ca24d3574485745109fcd",
+  "timestamp_utc": "2026-11-05T22:57:02.982771+00:00"
+}

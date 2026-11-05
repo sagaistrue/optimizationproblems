@@ -1,0 +1,22 @@
+{
+  "cert_id": "END-ORDER",
+  "claim_tex": "6*Phi^2 > 5*pi  (sign certificate)",
+  "published_value": null,
+  "precision_bits": 200,
+  "primary": {
+    "tool": "python-flint 0.9.0 (Arb), prec=200 bits",
+    "sign_certified": true
+  },
+  "crosscheck": {
+    "tool": "mpmath 1.4.1 iv, prec=200 bits",
+    "sign_certified": true
+  },
+  "rules": {
+    "R1_overlap": true,
+    "R2_radius": null,
+    "R3_published_inside": null
+  },
+  "verdict": "PASS",
+  "code_sha256": "bcff4d80ba658b2a933c8539c29d8b8524efde48e45ca24d3574485745109fcd",
+  "timestamp_utc": "2026-11-05T22:57:02.982771+00:00"
+}

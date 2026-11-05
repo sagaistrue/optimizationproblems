@@ -30,4 +30,6 @@ The error bound quoted in the paper, $|\pi_k - \Pi| \le 1/(3N^2)$, is a **pure t
 
 Certified rows therefore use decimal 60-digit arithmetic (default in the scripts above); float64 rows are indicative only. The clamping-window conclusions are unaffected: for C₁a the scissors direction is fixed analytically by $\delta' = -5 - \tfrac{48}{5}\cos(\Pi/5)\sin(\Pi/5) < 0$, and a $\sim 4\times10^{-16}$ bias in $\pi_k$ is thirteen orders of magnitude below the band half-width $\sim 2.86\times10^{-3}$ (C₁a) and eight orders below the C₁b band $1.18\times10^{-8}$.
 
+**Update (2026-11-06) — certified layer.** The rigorous layer now lives in [`../certificates/`](../certificates/): Arb ball arithmetic (200-bit, self-certified radii) cross-checked by an independent mpmath interval implementation replays every Appendix E row including $N = 10^{8}$. The certified $N = 10^{8}$ error is $8.33\times10^{-18} = 1/(12N^2)$ with interval radius $1.71\times10^{-52}$ — i.e. exactly the truncation term with the float64 floor removed. Verdict records: [`../certificates/results/latest/summary.md`](../certificates/results/latest/summary.md).
+
 Thanks to @chessing234 (teorth/optimizationproblems#288) for prompting this clarification.

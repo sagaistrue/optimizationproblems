@@ -1,0 +1,24 @@
+{
+  "cert_id": "C1B-UPPER",
+  "claim_tex": "((3-sqrt5) - (1+sqrt5)*sqrt(5*pi)*delta)/2",
+  "published_value": "0.380422678036171",
+  "precision_bits": 200,
+  "primary": {
+    "tool": "python-flint 0.9.0 (Arb), prec=200 bits",
+    "mid": "0.3804226780361710640309516514635301639470512286101704741294320986128851",
+    "radius": 4.199168289080482e-58
+  },
+  "crosscheck": {
+    "tool": "mpmath 1.4.1 iv, prec=200 bits",
+    "lo": "0.38042267803617106403095165146353016394705122861017047412911161",
+    "hi": "0.38042267803617106403095165146353016394705122861017047412955998"
+  },
+  "rules": {
+    "R1_overlap": true,
+    "R2_radius": true,
+    "R3_published_inside": true
+  },
+  "verdict": "PASS",
+  "code_sha256": "bcff4d80ba658b2a933c8539c29d8b8524efde48e45ca24d3574485745109fcd",
+  "timestamp_utc": "2026-11-05T22:57:02.982771+00:00"
+}

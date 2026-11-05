@@ -1,0 +1,24 @@
+{
+  "cert_id": "C84-WINDOW",
+  "claim_tex": "5/4 - delta_open",
+  "published_value": "1.2497593",
+  "precision_bits": 200,
+  "primary": {
+    "tool": "python-flint 0.9.0 (Arb), prec=200 bits",
+    "mid": "1.249759335449597103085695910203685714663991918040951932062047170791225",
+    "radius": 6.523762171024671e-59
+  },
+  "crosscheck": {
+    "tool": "mpmath 1.4.1 iv, prec=200 bits",
+    "lo": "1.2497593354495971030856959102036857146639919180409519320619974",
+    "hi": "1.2497593354495971030856959102036857146639919180409519320620671"
+  },
+  "rules": {
+    "R1_overlap": true,
+    "R2_radius": true,
+    "R3_published_inside": true
+  },
+  "verdict": "PASS",
+  "code_sha256": "bcff4d80ba658b2a933c8539c29d8b8524efde48e45ca24d3574485745109fcd",
+  "timestamp_utc": "2026-11-05T22:57:02.982771+00:00"
+}
